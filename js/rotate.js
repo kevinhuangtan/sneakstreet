@@ -28,6 +28,5 @@ $(document).mousemove(function(event) {
     currentMousePos = event.pageX;
     var x_transform = 180-currentMousePos/5;
     $('.display-shoe').css('-webkit-transform','rotateY('+x_transform+'deg)');
-
 });
 

@@ -1,13 +1,15 @@
 h1, p, li{
-	font-variant: small-caps!important;
-}
-p{
+	font-variant: small-caps;
 	text-align: center;
 }
+body{
+	text-align: center
+}
+
 .display-shoe{
 	height:300px;
-	text-align:center;
-	margin:20px;
+	margin-top:100px;
+	display: inline-block;
 }
 .display-shoe > img{
 	height:100%;
@@ -17,17 +19,18 @@ p{
 	width:100%;
 	text-align: center;
 	color:red;
-	margin-top: 110px;$
+	margin-top: 100px;$
 
 }
 .buy-sell{
 	font-size: 30px;
-	margin-top: 70px;
+	margin-top: 30px;
 	position: absolute;
+
 }
 .buy-sell > p>a{
-		color:red;	
-		text-decoration: none;
+	color:red;	
+	text-decoration: none;
 }
 #buy{
 	left: 10%;
@@ -43,7 +46,6 @@ p{
 	bottom: 30px;
 	text-align: center;
 }
-
 ul{
 	padding:0px;
 }
