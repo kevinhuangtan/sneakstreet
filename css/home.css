@@ -1,0 +1,54 @@
+h1, p, li{
+	font-variant: small-caps!important;
+}
+p{
+	text-align: center;
+}
+.display-shoe{
+	height:300px;
+	text-align:center;
+	margin:20px;
+}
+.display-shoe > img{
+	height:100%;
+}
+
+#title{
+	width:100%;
+	text-align: center;
+	color:red;
+	margin-top: 110px;$
+
+}
+.buy-sell{
+	font-size: 30px;
+	margin-top: 70px;
+	position: absolute;
+}
+.buy-sell > p>a{
+		color:red;	
+		text-decoration: none;
+}
+#buy{
+	left: 10%;
+}
+
+#sell{
+	right: 10%;	
+}
+
+.menu{
+	width:100%;
+	position: fixed;
+	bottom: 30px;
+	text-align: center;
+}
+
+ul{
+	padding:0px;
+}
+li{
+	color:#FF3D28;
+	margin: 30px;
+	font-size: 15px;
+}
